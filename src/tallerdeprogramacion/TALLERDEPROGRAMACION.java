@@ -8,6 +8,7 @@ package tallerdeprogramacion;
  *
  * @author frankz
  */
+import java.util.Scanner;
 public class TALLERDEPROGRAMACION {
 
     /**
@@ -15,6 +16,9 @@ public class TALLERDEPROGRAMACION {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        Scanner lector = new Scanner(System.in);
+        System.out.print("INGRESE SU NOMBRE: ");
+        String nombre = lector.nextLine();
     }
     
 }
